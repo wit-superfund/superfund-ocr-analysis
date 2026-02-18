@@ -1,10 +1,9 @@
 # AI-Assisted OCR and Analysis of EPA Superfund Documents
 
 This project builds a clean, searchable corpus from EPA Superfund PDFs using AI-assisted OCR, then compares
-(1) traditional sentiment analysis methods with (2) LLM-based interpretive analysis (tone, stance, rhetorical positioning)
-on technical, bureaucratic environmental policy texts.
 
-**Poster/project page:** [link will appear here after GitHub Pages is enabled]
+(1) traditional sentiment analysis methods with 
+(2) LLM-based interpretive analysis (tone, stance, rhetorical positioning) on technical, bureaucratic environmental policy texts.
 
 ## Goals
 - Build a scalable OCR + text-cleaning pipeline for federal PDF documents
@@ -24,16 +23,13 @@ on technical, bureaucratic environmental policy texts.
 We do not store the full Superfund corpus in this repo. See `data_sample/README.md` for how to obtain documents and
 expected folder structure.
 
-## How to run (placeholder)
-1. Create environment: `pip install -r requirements.txt`
-2. Run OCR: `python scripts/run_ocr.py --input ... --output ...`
-3. Build corpus: `python scripts/build_corpus.py`
-4. Run analysis: `python scripts/run_models.py`
-
 ## Team
-- [Name], Humanities
-- [Name], Computing/Data Science
-- [Student Name]
+- Adam Toscano (Co-op)
+- Ella Howard (Sciences & Humanities)
+- Memo Ergezer (Computing & Data Science)
+- Josh Larson (Digital Technology Services)
+
+**Affiliation:** Department of Digital Technology Services; Schools of Sciences & Humanities and Computing & Data Science, Wentworth Institute of Technology
 
 ## License
 MIT (see LICENSE).
